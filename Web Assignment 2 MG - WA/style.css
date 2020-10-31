@@ -1,0 +1,196 @@
+/* Style the HTML elements according to the following instructions. 
+You are given the measurements and color information needed for styling this HTML. 
+You may need to add more properties that do not have measurements according to your needs. 
+
+
+/* Give the <body> element a margin of 0px, background color of #9c9f84, a family font of "verdana,serif", a font size of 15px, */
+
+body {
+    margin: 0px;
+    background-color: #9c9f84;
+    font-family: verdana, serif;
+    font-size: 15px;
+}
+
+/* The first div in the header has an ID name, the header is given a margin 10px, background color #5c755e, height 90px, border radius 3px, and center the text, 
+the PSU logo has a class name, then make the logo's width set to 23.3%*/
+
+#top {
+    margin: 10px;
+    background-color: #5c755e;
+    height: 90px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.logo {
+    width: 23.3%;
+    height: 90%;
+}
+
+/*The second div in the navigation bar has an ID name and its unorder list properties are padding 15px, 
+margin 10px, background color #000, raduis 3px. For the a tag properties make 
+background color #000, color #fff, padding .2em 1em, and for the hovering propoerties of the a tag 
+make color #000, background color #fff, padding 15px.*/
+
+#navBar ul {
+    padding: 15px;
+    margin: 10px;
+    background-color: #000;
+    border-radius: 3px;
+    list-style: none;
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+#navBar a {
+    background-color: #000;
+    color: #fff;
+    padding: .2em 1em;
+    text-decoration: none;
+}
+
+#navBar li {
+    display: inline;
+}
+
+#navBar a:hover {
+    color: #000;
+    background-color: #fff;
+    padding: 15px;
+}
+
+/*The third and fourth div (on the right side of the page) have the same class name, make margin 10px everywhere except top is 0px,
+background color #e5e4d7, font size 105%, raduis 3px, padding 20px, width 260px */
+
+.lec {
+    margin: 0px 10px 10px 10px;
+    background-color: #e5e4d7;
+    font-size: 105%;
+    border-radius: 3px;
+    padding: 20px;
+    width: 260px;
+    float: right;
+    clear: both;
+}
+
+/*The fifth div contains the petra image, the image has a class name, then make margin 10px everywhere except top 0px, width 300px,  */
+
+.petra {
+    margin: 0px 10px 10px 10px;
+    width: 300px;
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    top: 720px;
+}
+
+/*The sixth and seventh div (on the left side of the page) has the same class name, make margin top (10px) right (320px) bottom (10px) left (10px), 
+background color #e5e4d7, font size 110%, raduis 3px, padding 20px*/
+
+.post {
+    margin: 10px 320px 10px 10px;
+    background-color: #e5e4d7;
+    font-size: 110%;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+/* Make all <h1> elements color #ce282e, and font size 120%*/
+
+h1 {
+    color: #ce282e;
+    font-size: 120%;
+}
+
+/* Make all <h2> elements font size 110%, color darkblue */
+
+h2 {
+    font-size: 110%;
+    color: darkblue;
+}
+
+/* Make all <h3> elements font size 250%, color:#e5e4d7, for position parameter use top 20px, margin 0px*/
+
+h3 {
+    font-size: 250%;
+    color: #e5e4d7;
+    margin: 0px;
+}
+
+/*The eighth div of the footer has an ID name, then give the footer background color #5c755e, margin 10px, 
+height 90px, raduis 5px, color #efe5d0, padding 15px, font size 90%. 
+Then give the ul element padding 5px, margin 10px, and raduis 5px. 
+Then give the a tag in the li element padding .2em 1em, color #efe5d0, background color #5c755e. 
+Then make hover property on the a tags of the li elements which has color #000, and background color #fff.*/
+
+#footer {
+    background-color: #5c755e;
+    margin: 10px;
+    height: 90px;
+    border-radius: 5px;
+    color: #efe5d0;
+    padding: 15px;
+    font-size: 90%;
+}
+
+#footer ul {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    list-style: none;
+    text-align: center;
+}
+
+#footer li a.bottom {
+    padding: .2em 1em;
+    color: #efe5d0;
+    background-color: #5c755e;
+    text-decoration: none;
+}
+
+#footer a.bottom:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+#footer li {
+    display: inline;
+}
+
+#divB {
+    text-align: center;
+    color: white;
+}
+
+/*Add the needed class and elements and necessary properties 
+to make the social media symbols appear inside the ul list */
+
+.fa {
+    /*ref: W3school*/
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.90;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
